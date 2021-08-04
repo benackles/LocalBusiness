@@ -26,6 +26,10 @@
 - Metadata
 - Open Graph Tags
 - Structured Data Types (JSON-LD)
+    - [Local Business](https://developers.google.com/search/docs/data-types/local-business)
+    - Logo
+    - Breadcrumb
+    - Review Snippet
 - Google Lighthouse Scores
     - 🟢 Performance
     - 🟢 Accessibility
