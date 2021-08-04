@@ -222,13 +222,13 @@
 
 #### Web Brand Identity
 - Logos
-    - Square Logos (1:1)
-    - Rectangular Logos (2:1)
-    - Landscape Logos (4:1)
+    - **Square Logos** (1:1)
+    - **Rectangular Logos** (2:1)
+    - **Landscape Logos** (4:1)
 - Colors
-    - Main Color: the background color, typically white
-    - Accent Color: the color mostly used for buttons and other call to actions
-    - Color Palette (up to 5): a color scheme for your brand
+    - **Main Color**: the background color, typically white
+    - **Accent Color**: the color mostly used for buttons and other call to actions
+    - **Color Palette** (*up to 5*): a color scheme for your brand
 - Terms
     - Tagline
     - Slogans
