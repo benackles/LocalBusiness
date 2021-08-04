@@ -21,6 +21,17 @@
 - Offers > Offer Post
 - Jobs > Job Post
 
+## Features
+
+- Metadata
+- Open Graph Tags
+- Structured Data Types (JSON-LD)
+- Google Lighthouse Scores
+    - Performance 🟢
+    - Accessibility 🟢
+    - Best Practices 🟢
+    - SEO 🟢
+
 ### Data Sources
 
 - Google Sheets
