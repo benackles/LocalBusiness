@@ -62,10 +62,10 @@
         - Tagline
         - Slogans
         - Benefits
-    - Graphics
-        - Square Marketing Images (1:1)
-        - Landscape Marketing Images (1.91:1)
-        - Photographic Marketing Images (4:3)
+    - Marketing Graphics
+        - Square Images (1:1)
+        - Landscape Images (1.91:1)
+        - Photographic Images (4:3)
 - Web Aspect Ratios
     - 1:1
     - 1.91:1
