@@ -14,7 +14,6 @@ const IndexPage = () => {
       </Helmet>
       <h1>Local Business</h1>
       <p>Build mobile-responsive local business websites with Gatsby.js</p>
-      </html>
     </>
   )
 }
