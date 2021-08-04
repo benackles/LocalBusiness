@@ -1,8 +1,32 @@
 ## 📍 Getting Started
 
+### Site
+
+#### 😀 Header
+
+- logo
+- navigation
+- local actions
+- posts
+
+#### 🦶 Footer
+
+- sitemap
+- social
+- credit
+
 ### 📄 Pages
 
 #### 🏠 Home
+
+- hero
+- welcome
+- benefits
+- products & services
+- get hours & directions
+- read & write reviews
+- request appointment
+- write message
 
 #### 💼 About
 
@@ -13,15 +37,43 @@
 - business.description
 - business.founders
 - business.owners
-- business.establishedDate
+- business.dateEstablished
 
 #### 💬 Contact
 
 *🏠 > Contact*
 
+**Write a message**
+
+1. choose location
+    - local (physica location)
+    - online
+3. select product & service
+4. message
+5. preferred method of contact
+    - phone (mobile)
+    - email
+6. start conversation
+
 #### 🕒 Appointment
 
 *🏠 > Appointment*
+
+**Request an appointment**
+
+1. choose location
+    - local (physical location)
+    - online
+3. select product & service
+4. message
+    - preferred date & time (local timezone)
+
+6. Contact
+    - name
+    - preferred method of contact
+        - phone (mobile)
+        - email
+7. request appointment
 
 #### ⭐ Ratings & Reviews
 
@@ -54,7 +106,7 @@
 - location.description
 - location.address
 - location.openingHoursSpecification
-- location.openedDate
+- location.dateOpened
 
 [Structured Data Type for Local Businesses](https://developers.google.com/search/docs/data-types/local-business)
 
@@ -260,10 +312,10 @@
 | Rectangular | 2:1      |    2000px by 1000px | Google Merchant Center Rectangular Logos |
 | Photographic | 4:3      |    1200px by 900px | Google My Business Post Photos |
 | High Definition | 16:9     |    1440px by 810px | HD Videos |
-| Film | 3:2     |    1080px by 720px | Google My Business Cover Photo |
+| Film | 3:2     |    1080px by 720px | Google My Business Cover Photos |
 | Portrait | 2:3     |    1000px by 1500px | Pinterest Pins |
-| Header | 3:1     |    1500px by 500px | Twitter Header |
-| Landscape | 4:1     |    1200px by 300px | Google Display Ads Landscape Image |
+| Header | 3:1     |    1500px by 500px | Twitter Headers |
+| Landscape | 4:1     |    1200px by 300px | Google Display Ads Landscape Images |
 
 ### Data Sources
 
