@@ -24,8 +24,7 @@
 ### Features
 
 - Metadata
-    - title
-    - meta description
+    - [title tag & meta description](https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets)
 - [Open Graph Tags](https://ogp.me/)
     - og:locale
     - og:site_name
