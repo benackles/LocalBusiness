@@ -113,7 +113,7 @@
 
 #### 📦 Products
 
-*🏠 > Products > Product Category > Product Details*
+*🏠 > Products & Services > Product Category > Product Details*
 
 - product.title
 - product.category
@@ -135,7 +135,7 @@
 
 #### 🛎 Services
 
-*🏠 > Services > Service Category > Service Details*
+*🏠 > Products & Services > Service Category > Service Details*
 
 - service.title
 - service.category
