@@ -83,7 +83,7 @@
 - Google My Business
 - Ghost Blog
 
-# Routes
+# 🗺️ Routes
 
 | Name  | Path |
 | ------------- | ------------- |
