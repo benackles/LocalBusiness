@@ -24,7 +24,16 @@
 ### Features
 
 - Metadata
-- Open Graph Tags
+    - title
+    - meta description
+- [Open Graph Tags](https://ogp.me/)
+    - og:locale
+    - og:site_name
+    - og:description
+    - og:title
+    - og:type
+    - og:url
+    - og:image
 - Structured Data Types (JSON-LD)
     - [Local Business](https://developers.google.com/search/docs/data-types/local-business)
     - [Logo](https://developers.google.com/search/docs/data-types/logo)
@@ -41,6 +50,19 @@
     - 🟢 Accessibility
     - 🟢 Best Practices
     - 🟢 SEO
+- Web Brand Identity
+    - Logos
+    - Colors
+    - Terms
+    - Graphics
+- Web Aspect Ratios
+    - 1:1
+    - 1.91:1
+    - 2:1
+    - 4:3
+    - 16:9
+    - 3:2
+    - 2:3
 
 ### Data Sources
 
