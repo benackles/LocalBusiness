@@ -1,10 +1,10 @@
 ## 📍 Getting Started
 
-### Pages
+### 📄 Pages
 
 #### 🏠 Home
 
-#### About
+#### 💼 About
 
 *🏠 > About*
 
@@ -15,15 +15,15 @@
 - business.owners
 - business.establishedDate
 
-#### Contact
+#### 💬 Contact
 
 *🏠 > Contact*
 
-#### Appointment
+#### 🕒 Appointment
 
 *🏠 > Appointment*
 
-#### Ratings & Reviews
+#### ⭐ Ratings & Reviews
 
 *🏠 > Ratings & Reviews*
 
@@ -43,7 +43,9 @@
 - aggregateRating.bestRating
 - aggregateRating.worstRating
 
-#### Locations
+[Structured Data Type for Review Snippets](https://developers.google.com/search/docs/data-types/review-snippet)
+
+#### 📍 Locations
 
 *🏠 > Locations > Location Category > Location Details*
 
@@ -54,7 +56,9 @@
 - location.openingHoursSpecification
 - location.openedDate
 
-#### Products
+[Structured Data Type for Local Businesses](https://developers.google.com/search/docs/data-types/local-business)
+
+#### 📦 Products
 
 *🏠 > Products > Product Category > Product Details*
 
@@ -74,7 +78,9 @@
 - product.price
 - product.availability
 
-#### Services
+[Structured Data Type for Products](https://developers.google.com/search/docs/data-types/product)
+
+#### 🛎 Services
 
 *🏠 > Services > Service Category > Service Details*
 
@@ -84,7 +90,7 @@
 - service.id
 - service.price (No Price, Free, Fixed, From)
 
-#### People
+#### 👩‍💻 People
 
 *🏠 > People > Person*
 
@@ -92,7 +98,7 @@
 - person.position
 - person.description
 
-#### FAQs
+#### ❓ FAQs
 
 *🏠 > FAQs > FAQ*
 
@@ -102,10 +108,11 @@
 - faq.name 
 - faq.text
 
+[Structured Data Type for FAQ](https://developers.google.com/search/docs/data-types/faqpage)
 
-### Posts
+### 📌 Posts
 
-#### News Post
+#### 📰 News Post
 
 *🏠 > Posts > News > News Post*
 
@@ -120,7 +127,9 @@
 - article.dateModified 
 - article.mainEntityOfPage
 
-#### Event Post
+[Structured Data Type for Articles](https://developers.google.com/search/docs/data-types/article)
+
+#### 📅 Event Post
 
 *🏠 > Posts > Events > Event Post*
 
@@ -134,7 +143,9 @@
 - eventStatus
 - image
 
-#### Offer Post
+[Structured Data Type for Events](https://developers.google.com/search/docs/data-types/event)
+
+#### 📣 Offer Post
 
 *🏠 > Posts > Offers > Offer Post*
 
@@ -145,7 +156,7 @@
 - offers.validFrom
 - offers.url
 
-#### Job Post
+#### 💻 Job Post
 
 *🏠 > Posts > Jobs > Job Post*
 
@@ -157,6 +168,8 @@
 - post.jobLocation
 - post.validThrough
 - post.employmentType
+
+[Structured Data Type for Job Postings](https://developers.google.com/search/docs/data-types/job-posting)
 
 ### Features
 
@@ -246,7 +259,7 @@
 | Marketing Image      | 1.91:1     |   1200px by 627px  | og:image & Google Responsive Display Ads |
 | Rectangular | 2:1      |    2000px by 1000px | Google Merchant Center Rectangular Logos |
 | Photographic | 4:3      |    1200px by 900px | Google My Business Post Photos |
-| High Definition | 16:9     |    1440px by 810px | HD Video |
+| High Definition | 16:9     |    1440px by 810px | HD Videos |
 | Film | 3:2     |    1080px by 720px | Google My Business Cover Photo |
 | Portrait | 2:3     |    1000px by 1500px | Pinterest Pins |
 | Header | 3:1     |    1500px by 500px | Twitter Header |
