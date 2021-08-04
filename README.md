@@ -23,11 +23,8 @@
 
 #### Home
 
-`/src/pages/index.js`
 
 #### About
-
-`/src/pages/about.js`
 
 - business.name
 - business.category
@@ -38,15 +35,9 @@
 
 #### Contact
 
-`/src/pages/contact.js`
-
 #### Appointment
 
-`/src/pages/appointment.js`
-
 #### Ratings & Reviews
-
-`/src/pages/ratings-reviews.js`
 
 - review.author
 - review.itemReviewed (LocalBusiness, Product/Service)
@@ -66,8 +57,6 @@
 
 #### Locations
 
-`/src/pages/{location.base}/{location.category}/{location.slug}.js`
-
 - location.name
 - location.category
 - location.description
@@ -77,8 +66,6 @@
 
 #### Products
 
-`/src/pages/{product.base}/{product.category}/{product.id}.js`
-
 - product.title
 - product.category
 - product.description
@@ -87,14 +74,15 @@
 - product.offers
 - product.brand
 - product.image
-- product.id (gtin | gtin8 | gtin13 | gtin14 | mpn | isbn)
+- product.id
+- product.gtin
+- product.mpn
+- product.isbn
 - product.sku
 - product.price
 - product.availability
 
 #### Services
-
-`/src/pages/{service.base}/{service.category}/{serice.id}.js`
 
 - service.title
 - service.category
@@ -104,15 +92,11 @@
 
 #### People
 
-`/src/pages/{person.base}/{person.name}.js`
-
 - person.name
 - person.position
 - person.description
 
 #### FAQs
-
-`/src/pages/faqs.js`
 
 - faq.relatedTo: products, services & locations
 - faq.mainEntity
@@ -134,8 +118,6 @@
 
 #### News Post
 
-`/src/pages/posts/news/{post.slug}.js`
-
 - article.author
 - article.author.name
 - article.datePublished
@@ -149,8 +131,6 @@
 
 #### Event Post
 
-`/src/pages/posts/events/{post.id}.js`
-
 - name
 - address
 - url
@@ -163,8 +143,6 @@
 
 #### Offer Post
 
-`/src/pages/posts/offers/{post.id}.js`
-
 - offers
 - offers.availability
 - offers.price 
@@ -173,8 +151,6 @@
 - offers.url
 
 #### Job Post
-
-`/src/pages/posts/jobs/{post.id}.js`
 
 - post.title
 - post.position
@@ -213,6 +189,29 @@
     - 🟢 Accessibility
     - 🟢 Best Practices
     - 🟢 SEO
+- [Product Feed Specification](https://support.google.com/merchants/answer/7052112)
+    - product.id
+    - product.sku
+    - product.title
+    - product.description
+    - product.image_link
+    - product.availability
+    - product.availability_date
+    - product.price
+    - product.brand
+    - product.gtin
+    - product.mpn
+    - product.condition
+    - product.adult
+    - product.age_group
+    - product.color
+    - product.gender
+    - product.material 
+    - product.pattern
+    - product.size
+    - product.item_group_id
+    - product.shipping
+    - product.tax
 - Web Brand Identity
     - Logos
         - Square Logos (1:1)
@@ -249,32 +248,32 @@
 
 # 🗺️ Routes
 
-| Name  | Path |
-| ------------- | ------------- |
-| Home  | `/`  |
-| About  | `/about/`  |
-| Contact  | `/contact/`  |
-| Appointment  | `/appointment/`  |
-| Ratings & Reviews  | `/ratings-reviews/`  |
-| Locations  | `/locations/`  |
-| Location Category  | `/locations/{location.category}/`  |
-| Location Details  | `/locations/{location.category}/{location.id}/`  |
-| Products & Services  | `/products-services/`  |
-| Products  | `/products/`  |
-| Product Category  | `/products/{product.category}/`  |
-| Product Details  | `/products/{product.category}/{product.id}`  |
-| Services  | `/services/`  |
-| Service Category  | `/services/{service.category}/`  |
-| Service Details  | `/services/{service.category}/{service.id}`  |
-| People  | `/people/`  |
-| Person  | `/people/{person.name}/`  |
-| FAQs  | `/faqs/`  |
-| FAQ  | `/faqs/{faq.slug}/`  |
-| News  | `/news/`  |
-| News Post  | `/news/{post.slug}/`  |
-| Events  | `/events/`  |
-| Event Post  | `/events/{post.slug}/`  |
-| Offers  | `/offers/`  |
-| Offer Post  | `/offers/{post.slug}/`  |
-| Jobs  | `/jobs/`  |
-| Job Post  | `/jobs/{post.slug}`  |
+| Name  | Path | Route |
+| ------------- | ------------- | ------------- |
+| Home  | `/src/pages/index.js` | `/`  |
+| About  | `/src/pages/about.js` | `/about/`  |
+| Contact  | `/src/pages/contact.js` | `/contact/`  |
+| Appointment  | `/src/pages/appointment.js` | `/appointment/`  |
+| Ratings & Reviews  | `/src/pages/ratings-reviews.js` | `/ratings-reviews/`  |
+| Locations  | `/src/pages/{location.base}.js` | `/locations/`  |
+| Location Category  | `/src/pages/{location.base}/{location.category.js` | `/locations/{location.category}/`  |
+| Location Details  | `/src/pages/{location.base}/{location.category}/{location.slug}.js` | `/locations/{location.category}/{location.id}/`  |
+| Products & Services  | `/src/pages/products-services.js` | `/products-services/`  |
+| Products  | `/src/pages/{product.base}.js` | `/products/`  |
+| Product Category  | `/src/pages/{product.base}/{product.category}.js` | `/products/{product.category}/`  |
+| Product Details  | `/src/pages/{product.base}/{product.category}/{product.id}.js` | `/products/{product.category}/{product.id}`  |
+| Services  | /src/pages/{service.base}.js`` | `/services/`  |
+| Service Category  | `/src/pages/{service.base}/{service.category}.js` | `/services/{service.category}/`  |
+| Service Details  | `/src/pages/{service.base}/{service.category}/{service.id}.js` | `/services/{service.category}/{service.id}`  |
+| People  | `/src/pages/{person.base}.js` | `/people/`  |
+| Person  | `/src/pages/{person.base}/{person.name}.js` | `/people/{person.name}/`  |
+| FAQs  | `/src/pages/{faq.base}.js` | `/faqs/`  |
+| FAQ  | `/src/pages/{faq.base}/{faq.slug}.js` | `/faqs/{faq.slug}/`  |
+| News  | `/src/pages/posts/{news.base}.js` | `/news/`  |
+| News Post  | `/src/pages/posts/{news.base}/{post.slug}.js` | `/news/{post.slug}/`  |
+| Events  | `/src/pages/posts/{event.base}.js` | `/events/`  |
+| Event Post  | `/src/pages/posts/{event.base}/{post.id}.js` | `/events/{post.slug}/`  |
+| Offers  | `/src/pages/posts/{offer.base}.js` | `/offers/`  |
+| Offer Post  | `/src/pages/posts/{event.base}/{post.id}.js` | `/offers/{post.slug}/`  |
+| Jobs  | `/src/pages/posts/{job.base}.js` | `/jobs/`  |
+| Job Post  | `/src/pages/posts/{job.base}/{post.id}.js` | `/jobs/{post.slug}`  |
