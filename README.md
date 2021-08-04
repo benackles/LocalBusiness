@@ -27,10 +27,10 @@
 - Open Graph Tags
 - Structured Data Types (JSON-LD)
 - Google Lighthouse Scores
-    - Performance 🟢
-    - Accessibility 🟢
-    - Best Practices 🟢
-    - SEO 🟢
+    - 🟢 Performance
+    - 🟢 Accessibility
+    - 🟢 Best Practices
+    - 🟢 SEO
 
 ### Data Sources
 
