@@ -71,7 +71,7 @@
 
 # Routes
 
-| Naame  | Path |
+| Name  | Path |
 | ------------- | ------------- |
 | Home  | `/`  |
 | About  | `/about/`  |
