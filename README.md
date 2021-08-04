@@ -119,10 +119,10 @@
 | FAQs  | `/faqs/`  |
 | FAQ  | `/faqs/{faq.slug}/`  |
 | News  | `/news/`  |
-| News Post  | `/news/{post.id}/`  |
+| News Post  | `/news/{post.slug}/`  |
 | Events  | `/events/`  |
-| Event Post  | `/events/{post.id}/`  |
+| Event Post  | `/events/{post.slug}/`  |
 | Offers  | `/offers/`  |
-| Offer Post  | `/offers/{post.id}/`  |
+| Offer Post  | `/offers/{post.slug}/`  |
 | Jobs  | `/jobs/`  |
-| Job Post  | `/jobs/{post.id}`  |
+| Job Post  | `/jobs/{post.slug}`  |
