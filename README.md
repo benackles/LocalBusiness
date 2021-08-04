@@ -1,6 +1,6 @@
 ## 📍 Getting Started
 
-### Site
+### 🌐 Site
 
 #### 😀 Header
 
@@ -107,6 +107,7 @@
 - location.address
 - location.openingHoursSpecification
 - location.dateOpened
+- location.order (primary, secondary, tertiary)
 
 [Structured Data Type for Local Businesses](https://developers.google.com/search/docs/data-types/local-business)
 
