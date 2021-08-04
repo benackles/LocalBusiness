@@ -68,3 +68,35 @@
 - Google Sheets
 - Google My Business
 - Ghost Blog
+
+# Routes
+
+| Naame  | Path |
+| ------------- | ------------- |
+| Home  | `/`  |
+| About  | `/about/`  |
+| Contact  | `/contact/`  |
+| Appointment  | `/appointment/`  |
+| Ratings & Reviews  | `/ratings-reviews/`  |
+| Locations  | `/locations/`  |
+| Location Category  | `/locations/{location.category}/`  |
+| Location Details  | `/locations/{location.category}/{location.id}/`  |
+| Products & Services  | `/products-services/`  |
+| Products  | `/products/`  |
+| Product Category  | `/products/{product.category}/`  |
+| Product Details  | `/products/{product.category}/{product.id}`  |
+| Services  | `/services/`  |
+| Service Category  | `/services/{service.category}/`  |
+| Service Details  | `/services/{service.category}/{service.id}`  |
+| People  | `/people/`  |
+| Person  | `/people/{person.name}/`  |
+| FAQs  | `/faqs/`  |
+| FAQ  | `/faqs/{faq.slug}/`  |
+| News  | `/news/`  |
+| News Post  | `/news/{post.id}/`  |
+| Events  | `/events/`  |
+| Event Post  | `/events/{post.id}/`  |
+| Offers  | `/offers/`  |
+| Offer Post  | `/offers/{post.id}/`  |
+| Jobs  | `/jobs/`  |
+| Job Post  | `/jobs/{post.id}`  |
