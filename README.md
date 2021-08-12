@@ -7,7 +7,7 @@
 - logo
 - navigation
 - local actions
-- posts
+- headline
 
 #### 🦶 Footer
 
