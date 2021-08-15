@@ -360,5 +360,5 @@
 
 # Product Roadmap
 
-1. Gatsby.js
-2. Next.js
+1. Gatsby.js (at buildtime)
+2. Next.js (at runtime)
