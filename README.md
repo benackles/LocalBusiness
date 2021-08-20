@@ -7,7 +7,10 @@
 - logo
 - navigation
 - local actions
-- bar with headline & CTA
+- bar
+    - headline
+    - CTA
+    - close
 
 #### 🦶 Footer
 
