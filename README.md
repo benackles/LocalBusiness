@@ -336,6 +336,7 @@
 | Home  | `/src/pages/index.js` | `/`  |
 | About  | `/src/pages/about.js` | `/about/`  |
 | Contact  | `/src/pages/contact.js` | `/contact/`  |
+| Quote  | `/src/pages/quote.js` | `/quote/`  |
 | Appointment  | `/src/pages/appointment.js` | `/appointment/`  |
 | Ratings & Reviews  | `/src/pages/ratings-reviews.js` | `/ratings-reviews/`  |
 | Locations  | `/src/pages/{location.base}.js` | `/locations/`  |
