@@ -41,6 +41,7 @@
 - business.founders
 - business.owners
 - business.dateEstablished
+- business.benefits
 
 #### 💬 Contact
 
